@@ -29,11 +29,11 @@ nav ul {
 	margin-bottom: 0;
 }
 
- li {
+nav li {
 	padding-inline: 10px;
 }
 
- a {
+nav a {
 	text-decoration: none;
 	color: #000
 }
@@ -97,15 +97,15 @@ nav ul {
 	text-align: center;
 	padding-block: 2em;
 }
-.gallery  {
+.gallery .nav {
 	justify-content: center;
 }
--pills -link.active, -pills .show > -link {
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
--pills -link {
+.nav-pills .nav-link {
 	color: #000
 }
 .item-column {
@@ -147,6 +147,7 @@ nav ul {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 40px;
 
 }
 .quote__author {
@@ -324,11 +325,11 @@ input[type="submit"] {
 		flex-direction: column;
 		padding-inline: 0;
 	}
-	header , header  ul {
+	header nav , header nav ul {
 		width: 100%;
 		padding: 0 0 0 0;
 	}
-	header  li {
+	header nav li {
 		flex: 1;
 		padding-block: 1em;
 		text-align: center;
