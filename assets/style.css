@@ -257,6 +257,11 @@ input[type="submit"] {
 	font-weight: bold;
 }
 
+.carousel-control-prev .visually-hidden,
+.carousel-control-next .visually-hidden {
+	color: #454545;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
